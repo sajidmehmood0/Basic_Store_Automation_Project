@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-AutomationProject">
-              <span class="suite-name border-skipped">AutomationProject</span>
+              <span class="suite-name border-failed">AutomationProject</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-AutomationProject" class="hide-methods skipped suite-AutomationProject"> (hide)</a> <!-- hide-methods skipped suite-AutomationProject -->
-                      <a href="#" panel-name="suite-AutomationProject" class="show-methods skipped suite-AutomationProject"> (show)</a> <!-- show-methods skipped suite-AutomationProject -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AutomationProject" class="hide-methods failed suite-AutomationProject"> (hide)</a> <!-- hide-methods failed suite-AutomationProject -->
+                      <a href="#" panel-name="suite-AutomationProject" class="show-methods failed suite-AutomationProject"> (show)</a> <!-- show-methods failed suite-AutomationProject -->
                     </span>
-                    <div class="method-list-content skipped suite-AutomationProject">
+                    <div class="method-list-content failed suite-AutomationProject">
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-AutomationProject" title="com.automationproject.testCases.Tc_LoginTest_01" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-AutomationProject -->
+                    </div> <!-- method-list-content failed suite-AutomationProject -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -119,9 +119,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-AutomationProject" class="panel AutomationProject">
-          <div class="suite-AutomationProject-class-skipped">
+          <div class="suite-AutomationProject-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.automationproject.testCases.Tc_LoginTest_01</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -130,31 +130,15 @@
                   <a name="loginTest">
                   </a> <!-- loginTest -->
                   <span class="method-name">loginTest</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 (&apos;There are no more files.&apos;) for URL &apos;http://localhost:61182/&apos;
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;DESKTOP-DK52L2S&apos;, ip: &apos;172.20.10.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: internet explorer, se:ieOptions: {}}], desiredCapabilities=Capabilities {browserName: internet explorer, se:ieOptions: {}}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:264)
-	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:184)
-	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:171)
-	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:144)
-	at com.automationproject.testCases.baseClass.setup(baseClass.java:43)
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.automationproject.testCases.Tc_LoginTest_01.loginTest(Tc_LoginTest_01.java:38)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 25 stack frames
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-AutomationProject-class-skipped -->
+          </div> <!-- suite-AutomationProject-class-failed -->
         </div> <!-- panel AutomationProject -->
         <div panel-name="test-xml-AutomationProject" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -165,8 +149,11 @@ Capabilities {}
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;AutomationProject&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.automationproject.utilities.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;LoginTest&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;ie&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.automationproject.testCases.Tc_LoginTest_01&quot;/&gt;
     &lt;/classes&gt;
@@ -212,12 +199,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTest')
 data.setCell(0, 2, 'com.automationproject.testCases.Tc_LoginTest_01')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 8248);
 window.suiteTableData['AutomationProject']= { tableData: data, tableDiv: 'times-div-AutomationProject'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-AutomationProject">
               </div> <!-- times-div-AutomationProject -->
             </div> <!-- times-div -->
@@ -245,18 +232,18 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.automationproject.testCases.Tc_LoginTest_01</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">setup(ie)</span>
+                <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">loginTest</span>
-                <span class="method-start">32806 ms</span>
+                <span class="method-start">12635 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32831 ms</span>
+                <span class="method-start">20909 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

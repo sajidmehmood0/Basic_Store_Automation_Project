@@ -1,5 +1,7 @@
 package com.automationproject.testCases;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -8,7 +10,7 @@ import com.automationproject.pageObjects.loginPage;
 public class Tc_LoginTest_01 extends baseClass
 {
 	@Test
-	public void loginTest() throws InterruptedException
+	public void loginTest() throws InterruptedException, IOException
 	{
 		
 		loginPage lPage = new loginPage(driver);
@@ -30,8 +32,10 @@ public class Tc_LoginTest_01 extends baseClass
 		}
 		else
 		{
+			captureScreen(driver, "LoginTest_01");
+			System.out.println("inside");
+			logger.warn("Test case Failed \n");
 			Assert.assertTrue(false);
-			logger.info("Test case Failed \n");
 		}
 		
 	}

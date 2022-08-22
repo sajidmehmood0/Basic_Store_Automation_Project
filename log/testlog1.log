@@ -22,3 +22,21 @@
 2022-08-22 06:40:31,487 [main] INFO AutomationProject - Passwrod entered
 2022-08-22 06:40:35,307 [main] INFO AutomationProject - Test case Passed 
 
+2022-08-22 07:11:21,640 [main] INFO AutomationProject - URL is opened
+2022-08-22 07:11:23,250 [main] INFO AutomationProject - My Account button is clicked
+2022-08-22 07:11:25,389 [main] INFO AutomationProject - Username entered
+2022-08-22 07:11:25,543 [main] INFO AutomationProject - Passwrod entered
+2022-08-22 07:11:28,206 [main] INFO AutomationProject - Test case Passed 
+
+2022-08-22 07:12:36,542 [main] INFO AutomationProject - URL is opened
+2022-08-22 07:12:39,437 [main] INFO AutomationProject - My Account button is clicked
+2022-08-22 07:12:41,555 [main] INFO AutomationProject - Username entered
+2022-08-22 07:12:41,673 [main] INFO AutomationProject - Passwrod entered
+2022-08-22 07:14:56,237 [main] INFO AutomationProject - URL is opened
+2022-08-22 07:14:56,380 [main] INFO AutomationProject - My Account button is clicked
+2022-08-22 07:15:25,190 [main] INFO AutomationProject - URL is opened
+2022-08-22 07:15:28,777 [main] INFO AutomationProject - My Account button is clicked
+2022-08-22 07:15:30,894 [main] INFO AutomationProject - Username entered
+2022-08-22 07:15:31,013 [main] INFO AutomationProject - Passwrod entered
+2022-08-22 07:15:33,391 [main] WARN AutomationProject - Test case Failed 
+
