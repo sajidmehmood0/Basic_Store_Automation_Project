@@ -147,3 +147,10 @@
 2022-08-24 18:23:43,685 [main] INFO AutomationProject - URL is opened
 2022-08-24 18:24:48,662 [main] INFO AutomationProject - URL is opened
 2022-08-24 18:25:29,560 [main] INFO AutomationProject - URL is opened
+2022-08-24 18:26:00,568 [main] INFO AutomationProject - URL is opened
+2022-08-24 18:26:15,603 [main] INFO AutomationProject - My Account button is clicked
+2022-08-24 18:26:17,725 [main] INFO AutomationProject - Username entered
+2022-08-24 18:26:17,774 [main] INFO AutomationProject - Passwrod entered
+2022-08-24 18:26:21,777 [main] INFO AutomationProject - Test case Passed 
+
+2022-08-24 18:26:30,305 [main] INFO AutomationProject - URL is opened
