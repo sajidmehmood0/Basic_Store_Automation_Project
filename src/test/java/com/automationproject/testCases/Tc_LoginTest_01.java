@@ -10,7 +10,7 @@ import com.automationproject.pageObjects.loginPage;
 public class Tc_LoginTest_01 extends baseClass
 {
 	@Test
-	public void loginTest() throws InterruptedException, IOException
+	public void loginTestValid() throws InterruptedException, IOException
 	{
 		
 		loginPage lPage = new loginPage(driver);
@@ -32,8 +32,7 @@ public class Tc_LoginTest_01 extends baseClass
 		}
 		else
 		{
-			captureScreen(driver, "LoginTest_01");
-			System.out.println("inside");
+			captureScreen(driver, "LoginTestValid");
 			logger.warn("Test case Failed \n");
 			Assert.assertTrue(false);
 		}

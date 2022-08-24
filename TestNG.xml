@@ -7,10 +7,16 @@
 		<listener class-name="com.automationproject.utilities.Reporting"/>
 	</listeners>
 	
-	<test name = "LoginTest">
-		<parameter name = "browser" value = "chrome"/>
+	<test name = "LoginTests">
+		<parameter name = "browser" value = "firefox"/>
 		<classes>
 			<class name = "com.automationproject.testCases.Tc_LoginTest_01"/>
+			<class name = "com.automationproject.testCases.Tc_LoginTest_02"/>
+			<class name = "com.automationproject.testCases.Tc_LoginTest_03"/>
+			<class name = "com.automationproject.testCases.Tc_LoginTest_04"/>
+			<class name = "com.automationproject.testCases.Tc_LoginTest_05"/>
+			<class name = "com.automationproject.testCases.Tc_LoginTest_07"/>
+			<class name = "com.automationproject.testCases.Tc_LoginTest_08"/>
 		</classes>
 	</test>
 	

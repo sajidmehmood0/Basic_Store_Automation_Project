@@ -32,6 +32,10 @@ public class loginPage
 	@CacheLookup
 	WebElement btnLogin;
 	
+	@FindBy(how=How.XPATH, using = "/html/body/div[1]/div[2]/div/div/div/div/div[1]/nav/ul/li[6]/a")
+	@CacheLookup
+	WebElement btnLogout;
+	
 	public void clickMyAccount()
 	{
 		btnMyAccount.click();
@@ -47,6 +51,10 @@ public class loginPage
 	public void clickLogin()
 	{
 		btnLogin.click();
+	}
+	public void clickLogout()
+	{
+		btnLogout.click();
 	}
 	
 	
