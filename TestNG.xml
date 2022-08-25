@@ -10,7 +10,7 @@
 	<test name = "LoginTests">
 		<parameter name = "browser" value = "chrome"/>
 		<classes>
-			<class name = "com.automationproject.testCases.Tc_LoginTest_06"/>
+			<class name = "com.automationproject.testCases.Tc_LoginTest_01"/>
 			<class name = "com.automationproject.testCases.Tc_LoginTest_02"/>
 			<class name = "com.automationproject.testCases.Tc_LoginTest_03"/>
 			<class name = "com.automationproject.testCases.Tc_LoginTest_04"/>
