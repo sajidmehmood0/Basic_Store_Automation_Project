@@ -8,7 +8,7 @@
 	</listeners>
 	
 	<test name = "LoginTests">
-		<parameter name = "browser" value = "firefox"/>
+		<parameter name = "browser" value = "chrome"/>
 		<classes>
 			<class name = "com.automationproject.testCases.Tc_LoginTest_06"/>
 			<class name = "com.automationproject.testCases.Tc_LoginTest_02"/>
