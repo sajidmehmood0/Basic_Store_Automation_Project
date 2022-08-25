@@ -26,7 +26,7 @@ public class Tc_LoginTest_04 extends baseClass
 		logger.info("Passwrod entered");
 		
 		lPage.clickLogin();
-		
+		Thread.sleep(2000);
 		if(driver.getPageSource().contains("Username is required."))
 		{
 			Assert.assertTrue(true);

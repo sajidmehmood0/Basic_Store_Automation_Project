@@ -27,11 +27,11 @@ public class Tc_LoginTest_05 extends baseClass
 		
 		lPage.clickLogin();
 		
+		Thread.sleep(2000);
 		if(driver.getPageSource().contains("Username is required."))
 		{
 			Assert.assertTrue(true);
 			logger.info("Test case Passed \n");
-			captureScreen(driver, "loginTestWithEmptyCredentials");
 		}
 		else
 		{

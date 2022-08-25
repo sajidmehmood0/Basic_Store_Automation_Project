@@ -154,3 +154,114 @@
 2022-08-24 18:26:21,777 - AutomationProject -INFO - Test case Passed 
 
 2022-08-24 18:26:30,305 - AutomationProject -INFO - URL is opened
+2022-08-24 21:44:57,811 - AutomationProject -INFO - URL is opened
+2022-08-24 21:45:00,610 - AutomationProject -INFO - My Account button is clicked
+2022-08-24 21:45:02,689 - AutomationProject -INFO - Username entered
+2022-08-24 21:45:02,749 - AutomationProject -INFO - Passwrod entered
+2022-08-24 21:47:28,658 - AutomationProject -INFO - URL is opened
+2022-08-24 21:48:24,193 - AutomationProject -INFO - URL is opened
+2022-08-24 21:49:46,197 - AutomationProject -INFO - URL is opened
+2022-08-24 21:49:48,798 - AutomationProject -INFO - My Account button is clicked
+2022-08-24 21:49:51,087 - AutomationProject -INFO - Username entered
+2022-08-24 21:49:51,165 - AutomationProject -INFO - Passwrod entered
+2022-08-25 05:45:20,140 - AutomationProject -INFO - URL is opened
+2022-08-25 05:45:23,046 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 05:45:25,165 - AutomationProject -INFO - Email is entered
+2022-08-25 05:45:25,301 - AutomationProject -INFO - Password is entered
+2022-08-25 05:45:27,985 - AutomationProject -INFO - Registration button is clicked
+2022-08-25 05:45:28,093 - AutomationProject -INFO - Test case Passed 
+
+2022-08-25 06:01:19,965 - AutomationProject -INFO - URL is opened
+2022-08-25 06:01:24,503 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:01:26,567 - AutomationProject -INFO - Email is entered
+2022-08-25 06:01:26,676 - AutomationProject -INFO - Password is entered
+2022-08-25 06:01:30,270 - AutomationProject -INFO - Registration button is clicked
+2022-08-25 06:01:45,746 - AutomationProject -INFO - URL is opened
+2022-08-25 06:01:50,253 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:01:52,366 - AutomationProject -INFO - Email is entered
+2022-08-25 06:01:52,492 - AutomationProject -INFO - Password is entered
+2022-08-25 06:01:56,612 - AutomationProject -INFO - Registration button is clicked
+2022-08-25 06:01:56,662 - AutomationProject -INFO - Test case Passed 
+
+2022-08-25 06:02:12,687 - AutomationProject -INFO - URL is opened
+2022-08-25 06:02:17,207 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:02:19,320 - AutomationProject -INFO - Password is entered
+2022-08-25 06:02:23,503 - AutomationProject -INFO - Registration button is clicked
+2022-08-25 06:02:23,544 - AutomationProject -INFO - Test case Passed 
+
+2022-08-25 06:02:39,228 - AutomationProject -INFO - URL is opened
+2022-08-25 06:02:42,547 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:02:44,610 - AutomationProject -INFO - Email is entered
+2022-08-25 06:02:47,323 - AutomationProject -INFO - Registration button is clicked
+2022-08-25 06:02:47,388 - AutomationProject -INFO - Test case Passed 
+
+2022-08-25 06:03:02,081 - AutomationProject -INFO - URL is opened
+2022-08-25 06:03:05,534 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:03:11,237 - AutomationProject -INFO - Registration button is clicked
+2022-08-25 06:03:11,271 - AutomationProject -INFO - Test case Passed 
+
+2022-08-25 06:08:03,752 - AutomationProject -INFO - URL is opened
+2022-08-25 06:08:04,550 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:08:20,124 - AutomationProject -INFO - URL is opened
+2022-08-25 06:08:21,578 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:08:23,659 - AutomationProject -INFO - Username entered
+2022-08-25 06:08:23,719 - AutomationProject -INFO - Passwrod entered
+2022-08-25 06:08:24,805 - AutomationProject -INFO - Test case Passed 
+
+2022-08-25 06:08:35,306 - AutomationProject -INFO - URL is opened
+2022-08-25 06:08:36,459 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:08:38,528 - AutomationProject -INFO - Username entered
+2022-08-25 06:08:38,576 - AutomationProject -INFO - Empty passwrod entered
+2022-08-25 06:08:39,760 - AutomationProject -INFO - Test case Passed 
+
+2022-08-25 06:08:49,698 - AutomationProject -INFO - URL is opened
+2022-08-25 06:08:50,777 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:08:52,796 - AutomationProject -INFO - Empty username entered
+2022-08-25 06:08:52,844 - AutomationProject -INFO - Passwrod entered
+2022-08-25 06:08:53,848 - AutomationProject -INFO - Test case Passed 
+
+2022-08-25 06:09:04,127 - AutomationProject -INFO - URL is opened
+2022-08-25 06:09:05,234 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:09:07,253 - AutomationProject -INFO - Empty username entered
+2022-08-25 06:09:07,277 - AutomationProject -INFO - Empty passwrod entered
+2022-08-25 06:09:08,836 - AutomationProject -INFO - Test case Passed 
+
+2022-08-25 06:09:19,184 - AutomationProject -INFO - URL is opened
+2022-08-25 06:09:20,372 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:09:22,427 - AutomationProject -INFO - Username entered
+2022-08-25 06:09:22,467 - AutomationProject -INFO - Passwrod entered
+2022-08-25 06:09:23,992 - AutomationProject -INFO - Test case Passed 
+
+2022-08-25 06:09:36,656 - AutomationProject -INFO - URL is opened
+2022-08-25 06:09:37,880 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:09:39,936 - AutomationProject -INFO - Username entered
+2022-08-25 06:09:40,000 - AutomationProject -INFO - Passwrod entered
+2022-08-25 06:09:48,820 - AutomationProject -INFO - Test case Passed 
+
+2022-08-25 06:10:00,166 - AutomationProject -INFO - URL is opened
+2022-08-25 06:10:01,359 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:10:03,412 - AutomationProject -INFO - Email is entered
+2022-08-25 06:10:03,500 - AutomationProject -INFO - Password is entered
+2022-08-25 06:10:04,236 - AutomationProject -INFO - Registration button is clicked
+2022-08-25 06:10:28,128 - AutomationProject -INFO - URL is opened
+2022-08-25 06:10:29,422 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:10:31,485 - AutomationProject -INFO - Email is entered
+2022-08-25 06:10:31,573 - AutomationProject -INFO - Password is entered
+2022-08-25 06:10:32,737 - AutomationProject -INFO - Registration button is clicked
+2022-08-25 06:10:32,761 - AutomationProject -INFO - Test case Passed 
+
+2022-08-25 06:10:42,872 - AutomationProject -INFO - URL is opened
+2022-08-25 06:10:43,975 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:10:46,056 - AutomationProject -INFO - Password is entered
+2022-08-25 06:10:47,245 - AutomationProject -INFO - Registration button is clicked
+2022-08-25 06:10:47,269 - AutomationProject -INFO - Test case Passed 
+
+2022-08-25 06:10:56,810 - AutomationProject -INFO - URL is opened
+2022-08-25 06:10:57,891 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:10:59,944 - AutomationProject -INFO - Email is entered
+2022-08-25 06:11:00,752 - AutomationProject -INFO - Registration button is clicked
+2022-08-25 06:11:13,842 - AutomationProject -INFO - URL is opened
+2022-08-25 06:11:18,111 - AutomationProject -INFO - My Account button is clicked
+2022-08-25 06:11:23,826 - AutomationProject -INFO - Registration button is clicked
+2022-08-25 06:11:23,978 - AutomationProject -INFO - Test case Passed 
+

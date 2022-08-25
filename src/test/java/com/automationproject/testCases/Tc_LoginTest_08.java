@@ -25,6 +25,7 @@ public class Tc_LoginTest_08 extends baseClass
 		
 		lPage.clickLogin();
 		
+		Thread.sleep(2000);
 		if(driver.getPageSource().contains("From your account dashboard you can view your"))
 		{
 			lPage.clickLogout();

@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [AutomationProject]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.automationproject.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="RegistrationTests(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.automationproject.testCases.Tc_LoginTest_01">
+      <class name="com.automationproject.testCases.Tc_Register_09">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="loginTestValid"/>
+          <include name="registerWithValidData"/>
         </methods>
-      </class> <!-- com.automationproject.testCases.Tc_LoginTest_01 -->
+      </class> <!-- com.automationproject.testCases.Tc_Register_09 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- RegistrationTests(failed) -->
+</suite> <!-- Failed suite [AutomationProject] -->

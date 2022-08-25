@@ -26,7 +26,7 @@ public class Tc_LoginTest_02 extends baseClass
 		logger.info("Passwrod entered");
 		
 		lPage.clickLogin();
-		
+		Thread.sleep(2000);
 		if(driver.getPageSource().contains("A user could not be found with this email address"))
 		{
 			Assert.assertTrue(true);

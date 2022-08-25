@@ -10,7 +10,7 @@
 	<test name = "LoginTests">
 		<parameter name = "browser" value = "firefox"/>
 		<classes>
-			<class name = "com.automationproject.testCases.Tc_LoginTest_01"/>
+			<class name = "com.automationproject.testCases.Tc_LoginTest_06"/>
 			<class name = "com.automationproject.testCases.Tc_LoginTest_02"/>
 			<class name = "com.automationproject.testCases.Tc_LoginTest_03"/>
 			<class name = "com.automationproject.testCases.Tc_LoginTest_04"/>
@@ -20,6 +20,18 @@
 		</classes>
 	</test>
 	
+	
+	<test name = "RegistrationTests">
+		<parameter name = "browser" value = "firefox"/>
+		<classes>
+			<class name = "com.automationproject.testCases.Tc_Register_09"/>
+			<class name = "com.automationproject.testCases.Tc_RegisterInvalidEmail_10"/>
+			<class name = "com.automationproject.testCases.Tc_RegisterWithEmptyEmail_11"/>
+			<class name = "com.automationproject.testCases.Tc_RegisterWithEmptyPassword_12"/>
+			<class name = "com.automationproject.testCases.Tc_RegisterWithEmptyData_13"/>
+			
+		</classes>
+	</test>
 
 	
 </suite>

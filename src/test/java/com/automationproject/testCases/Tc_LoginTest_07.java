@@ -27,6 +27,7 @@ public class Tc_LoginTest_07 extends baseClass
 		
 		lPage.clickLogin();
 		
+		Thread.sleep(2000);
 		if(driver.getPageSource().contains("password you entered for the username"))
 		{
 			Assert.assertTrue(true);

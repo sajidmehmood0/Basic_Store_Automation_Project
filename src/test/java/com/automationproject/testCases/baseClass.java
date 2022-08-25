@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
@@ -68,5 +69,11 @@ public class baseClass
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		File target = new File(System.getProperty("user.dir")+"/Screenshots/"+tname+".png");
 		FileUtils.copyFile(source,target);
+	}
+	
+	public String randomestring()
+	{
+		String generatedstring=RandomStringUtils.randomAlphabetic(8);
+		return(generatedstring);
 	}
 }
