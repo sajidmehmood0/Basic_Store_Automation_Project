@@ -24,7 +24,7 @@ public class Tc_RegisterWithEmptyPassword_12 extends baseClass {
 		rPage.clickRegister();
 		logger.info("Registration button is clicked");
 		
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		if(driver.getPageSource().contains("Please enter an account password."))
 		{
 			Assert.assertTrue(true);

@@ -26,7 +26,7 @@ public class Tc_RegisterInvalidEmail_10 extends baseClass {
 		rPage.clickRegister();
 		logger.info("Registration button is clicked");
 		
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		if(driver.getPageSource().contains("Please provide a valid email address."))
 		{
 			Assert.assertTrue(true);

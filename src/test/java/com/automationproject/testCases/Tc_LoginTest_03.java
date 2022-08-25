@@ -27,7 +27,7 @@ public class Tc_LoginTest_03 extends baseClass
 		
 		lPage.clickLogin();
 		
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		if(driver.getPageSource().contains("Password is required."))
 		{
 			Assert.assertTrue(true);

@@ -24,7 +24,7 @@ public class Tc_LoginTest_01 extends baseClass
 		logger.info("Passwrod entered");
 		
 		lPage.clickLogin();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		if(driver.getPageSource().contains("From your account dashboard you can view your"))
 		{
 			Assert.assertTrue(true);

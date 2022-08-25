@@ -26,7 +26,7 @@ public class Tc_Register_09 extends baseClass {
 		rPage.clickRegister();
 		logger.info("Registration button is clicked");
 		
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		if(driver.getPageSource().contains("From your account dashboard you can view your"))
 		{
 			Assert.assertTrue(true);

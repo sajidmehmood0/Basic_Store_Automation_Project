@@ -29,7 +29,7 @@ public class Tc_LoginTest_08 extends baseClass
 		if(driver.getPageSource().contains("From your account dashboard you can view your"))
 		{
 			lPage.clickLogout();
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 			if(driver.getPageSource().contains("From your account dashboard you can view your"))
 			{
 				Assert.assertTrue(false);
