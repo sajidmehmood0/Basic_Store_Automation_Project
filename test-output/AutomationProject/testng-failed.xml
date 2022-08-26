@@ -5,7 +5,7 @@
     <listener class-name="com.automationproject.utilities.Reporting"/>
   </listeners>
   <test thread-count="5" name="Shop(failed)">
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.automationproject.testCases.Tc_FilterByPrice_14">
         <methods>
