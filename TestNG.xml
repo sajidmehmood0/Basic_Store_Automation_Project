@@ -22,7 +22,7 @@
 	
 	
 	<test name = "RegistrationTests">
-		<parameter name = "browser" value = "firefox"/>
+		<parameter name = "browser" value = "chrome"/>
 		<classes>
 			<class name = "com.automationproject.testCases.Tc_Register_09"/>
 			<class name = "com.automationproject.testCases.Tc_RegisterInvalidEmail_10"/>
@@ -34,7 +34,7 @@
 	</test>-->
 	
 	<test name = "Shop">
-		<parameter name = "browser" value = "firefox"/>
+		<parameter name = "browser" value = "chrome"/>
 		<classes>
 			<class name = "com.automationproject.testCases.Tc_FilterByPrice_14"/>
 		</classes>

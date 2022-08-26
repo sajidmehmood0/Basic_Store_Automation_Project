@@ -321,3 +321,7 @@
 2022-08-25 16:07:48,807 - AutomationProject -INFO - Registration button is clicked
 2022-08-25 16:07:53,823 - AutomationProject -INFO - Test case Passed 
 
+2022-08-26 23:22:55,300 - AutomationProject -INFO - Url is opened
+2022-08-26 23:24:22,112 - AutomationProject -INFO - Shop button is clicked
+2022-08-26 23:24:22,120 - AutomationProject -INFO - Left edge of price slider moved
+2022-08-26 23:24:22,121 - AutomationProject -INFO - Right edge of price slider moved

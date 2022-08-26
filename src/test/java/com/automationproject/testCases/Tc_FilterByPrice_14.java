@@ -1,20 +1,36 @@
 package com.automationproject.testCases;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
+
+import com.automationproject.pageObjects.shopPage;
 
 public class Tc_FilterByPrice_14 extends baseClass {
 	@Test
 	public void filterByPrice() throws InterruptedException	
 	{
-		WebElement slider =  driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/aside/div[2]/form/div/div[1]/span[1]"));
-		Thread.sleep(4000);
 		Actions action = new Actions(driver);
-		action.dragAndDropBy(slider, 150,0);
+		shopPage sPage = new shopPage(driver);
 		
-		Thread.sleep(4000);
+		logger.info("Url is opened");
+		
+		sPage.clickShop();
+		logger.info("Shop button is clicked");
+		
+		Thread.sleep(6000);
+		
+		action.dragAndDropBy(sPage.sliderLeft(), 20,0);
+		logger.info("Left edge of price slider moved");
+		
+		Thread.sleep(6000);
+		
+		action.dragAndDropBy(sPage.sliderRight(), -30,0);
+		logger.info("Right edge of price slider moved");
+		
+		Thread.sleep(6000);
+		
+		
+		Thread.sleep(6000);
 		
 		
 	}
