@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automationproject.testCases.Tc_LoginTest_06">
+      <class name="com.automationproject.testCases.Tc_FilterByPrice_14">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="loginPasswordMasked"/>
+          <include name="filterByPrice"/>
         </methods>
-      </class> <!-- com.automationproject.testCases.Tc_LoginTest_06 -->
+      </class> <!-- com.automationproject.testCases.Tc_FilterByPrice_14 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

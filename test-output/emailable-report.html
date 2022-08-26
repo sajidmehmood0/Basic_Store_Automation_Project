@@ -9,20 +9,31 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">AutomationProject</th></tr>
-<tr><td><a href="#t0">LoginTests</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">417</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">RegistrationTests</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">129,524</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">129,941</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Shop</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">55,442</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AutomationProject</th></tr></tbody><tbody id="t0"><tr><th colspan="4" class="invisible"/></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">RegistrationTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.automationproject.testCases.Tc_Register_09</td><td><a href="#m0">registerWithValidData</a></td><td rowspan="1">1661389279897</td><td rowspan="1">10441</td></tr><tr><th colspan="4">RegistrationTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.automationproject.testCases.Tc_RegisterInvalidEmail_10</td><td><a href="#m1">registerInvalidEmail</a></td><td rowspan="1">1661389305740</td><td rowspan="1">10922</td></tr><tr class="passedodd"><td rowspan="1">com.automationproject.testCases.Tc_RegisterWithEmptyData_13</td><td><a href="#m2">registerWithEmptyData</a></td><td rowspan="1">1661389382079</td><td rowspan="1">9192</td></tr><tr class="passedeven"><td rowspan="1">com.automationproject.testCases.Tc_RegisterWithEmptyEmail_11</td><td><a href="#m3">registerWithEmptyEmail</a></td><td rowspan="1">1661389332684</td><td rowspan="1">10862</td></tr><tr class="passedodd"><td rowspan="1">com.automationproject.testCases.Tc_RegisterWithEmptyPassword_12</td><td><a href="#m4">registerWithEmptyPassword</a></td><td rowspan="1">1661389359224</td><td rowspan="1">8167</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AutomationProject</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Shop &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.automationproject.testCases.Tc_FilterByPrice_14</td><td><a href="#m0">filterByPrice</a></td><td rowspan="1">1661533076796</td><td rowspan="1">137</td></tr></tbody>
 </table>
-<h2>LoginTests</h2><h2>RegistrationTests</h2><h3 id="m0">com.automationproject.testCases.Tc_Register_09#registerWithValidData</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at com.automationproject.testCases.Tc_Register_09.registerWithValidData(Tc_Register_09.java:36)
+<h2>Shop</h2><h3 id="m0">com.automationproject.testCases.Tc_FilterByPrice_14#filterByPrice</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[2]/div/aside/div[2]/form/div/div[1]/span[1]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-DK52L2S&apos;, ip: &apos;172.20.10.9&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ef15977d-1b50-4e54-8a43-e6c4835d8834, findElement {using=xpath, value=/html/body/div[1]/div[2]/div/aside/div[2]/form/div/div[1]/span[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0, moz:accessibilityChecks: false, moz:buildID: 20220818191623, moz:debuggerAddress: localhost:56557, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2784, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56557/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ef15977d-1b50-4e54-8a43-e6c4835d8834
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at com.automationproject.testCases.Tc_FilterByPrice_14.filterByPrice(Tc_FilterByPrice_14.java:12)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 ... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.automationproject.testCases.Tc_RegisterInvalidEmail_10#registerInvalidEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.automationproject.testCases.Tc_RegisterWithEmptyData_13#registerWithEmptyData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.automationproject.testCases.Tc_RegisterWithEmptyEmail_11#registerWithEmptyEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.automationproject.testCases.Tc_RegisterWithEmptyPassword_12#registerWithEmptyPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

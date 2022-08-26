@@ -4,16 +4,16 @@
   <listeners>
     <listener class-name="com.automationproject.utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" name="RegistrationTests(failed)">
+  <test thread-count="5" name="Shop(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.automationproject.testCases.Tc_Register_09">
+      <class name="com.automationproject.testCases.Tc_FilterByPrice_14">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="registerWithValidData"/>
+          <include name="filterByPrice"/>
         </methods>
-      </class> <!-- com.automationproject.testCases.Tc_Register_09 -->
+      </class> <!-- com.automationproject.testCases.Tc_FilterByPrice_14 -->
     </classes>
-  </test> <!-- RegistrationTests(failed) -->
+  </test> <!-- Shop(failed) -->
 </suite> <!-- Failed suite [AutomationProject] -->
