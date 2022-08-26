@@ -325,3 +325,11 @@
 2022-08-26 23:24:22,112 [main] INFO AutomationProject - Shop button is clicked
 2022-08-26 23:24:22,120 [main] INFO AutomationProject - Left edge of price slider moved
 2022-08-26 23:24:22,121 [main] INFO AutomationProject - Right edge of price slider moved
+2022-08-26 23:26:29,466 [main] INFO AutomationProject - Url is opened
+2022-08-26 23:26:31,556 [main] INFO AutomationProject - Shop button is clicked
+2022-08-26 23:26:37,561 [main] INFO AutomationProject - Left edge of price slider moved
+2022-08-26 23:26:43,567 [main] INFO AutomationProject - Right edge of price slider moved
+2022-08-26 23:28:35,200 [main] INFO AutomationProject - Url is opened
+2022-08-26 23:28:38,113 [main] INFO AutomationProject - Shop button is clicked
+2022-08-26 23:28:44,564 [main] INFO AutomationProject - Left edge of price slider moved
+2022-08-26 23:28:50,989 [main] INFO AutomationProject - Right edge of price slider moved

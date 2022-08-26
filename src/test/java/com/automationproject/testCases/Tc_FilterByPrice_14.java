@@ -17,20 +17,15 @@ public class Tc_FilterByPrice_14 extends baseClass {
 		sPage.clickShop();
 		logger.info("Shop button is clicked");
 		
-		Thread.sleep(6000);
 		
-		action.dragAndDropBy(sPage.sliderLeft(), 20,0);
+		action.dragAndDropBy(sPage.sliderLeft(), 20,0).perform();
 		logger.info("Left edge of price slider moved");
 		
-		Thread.sleep(6000);
 		
-		action.dragAndDropBy(sPage.sliderRight(), -30,0);
+		action.dragAndDropBy(sPage.sliderRight(), -30,0).perform();;
 		logger.info("Right edge of price slider moved");
 		
-		Thread.sleep(6000);
-		
-		
-		Thread.sleep(6000);
+		//*[@id="content"]/ul/li[1]/a[1]/span[2]
 		
 		
 	}
