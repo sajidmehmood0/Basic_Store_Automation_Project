@@ -130,28 +130,8 @@
                   <a name="filterByPrice">
                   </a> <!-- filterByPrice -->
                   <span class="method-name">filterByPrice</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\&quot;content\&quot;]/ul/li[&quot;+i+&quot;]/a[1]/span/span because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@id=\&quot;content\&quot;]/ul/li[&quot;+i+&quot;]/a[1]/span/span&apos; is not a valid XPath expression.
-  (Session info: chrome=104.0.5112.102)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;DESKTOP-DK52L2S&apos;, ip: &apos;10.211.0.14&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [af7a49104c00b96fdfba513c43ebc4f5, findElement {using=xpath, value=//*[@id=\&quot;content\&quot;]/ul/li[&quot;+i+&quot;]/a[1]/span/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50938}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50938/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: af7a49104c00b96fdfba513c43ebc4f5
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at com.automationproject.testCases.Tc_FilterByPrice_14.filterByPrice(Tc_FilterByPrice_14.java:57)
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.automationproject.testCases.Tc_FilterByPrice_14.filterByPrice(Tc_FilterByPrice_14.java:61)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
@@ -219,12 +199,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'filterByPrice')
 data.setCell(0, 2, 'com.automationproject.testCases.Tc_FilterByPrice_14')
-data.setCell(0, 3, 24307);
+data.setCell(0, 3, 43384);
 window.suiteTableData['AutomationProject']= { tableData: data, tableDiv: 'times-div-AutomationProject'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-AutomationProject">
               </div> <!-- times-div-AutomationProject -->
             </div> <!-- times-div -->
@@ -259,11 +239,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">filterByPrice</span>
-                <span class="method-start">22326 ms</span>
+                <span class="method-start">38574 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">46673 ms</span>
+                <span class="method-start">81988 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

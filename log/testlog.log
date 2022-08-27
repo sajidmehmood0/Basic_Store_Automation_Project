@@ -379,3 +379,57 @@
 2022-08-27 13:00:32,632 - AutomationProject -INFO - Left edge of price slider moved
 2022-08-27 13:00:33,055 - AutomationProject -INFO - Right edge of price slider moved
 2022-08-27 13:00:34,959 - AutomationProject -INFO - Filter button is clicked
+2022-08-27 13:16:10,371 - AutomationProject -INFO - Url is opened
+2022-08-27 13:16:20,760 - AutomationProject -INFO - Shop button is clicked
+2022-08-27 13:16:25,186 - AutomationProject -INFO - Left edge of price slider moved
+2022-08-27 13:16:25,611 - AutomationProject -INFO - Right edge of price slider moved
+2022-08-27 13:16:27,794 - AutomationProject -INFO - Filter button is clicked
+2022-08-27 13:16:36,932 - AutomationProject -INFO - Test case Passed 
+
+2022-08-27 13:19:01,810 - AutomationProject -INFO - Url is opened
+2022-08-27 13:19:06,616 - AutomationProject -INFO - Shop button is clicked
+2022-08-27 13:19:11,070 - AutomationProject -INFO - Left edge of price slider moved
+2022-08-27 13:19:11,509 - AutomationProject -INFO - Right edge of price slider moved
+2022-08-27 13:19:13,425 - AutomationProject -INFO - Filter button is clicked
+2022-08-27 13:19:22,715 - AutomationProject -INFO - Test case Passed 
+
+2022-08-27 23:34:05,062 - AutomationProject -INFO - Url is opened
+2022-08-27 23:34:08,796 - AutomationProject -INFO - Shop button is clicked
+2022-08-27 23:34:13,543 - AutomationProject -INFO - Left edge of price slider moved
+2022-08-27 23:34:14,208 - AutomationProject -INFO - Right edge of price slider moved
+2022-08-27 23:34:16,810 - AutomationProject -INFO - Filter button is clicked
+2022-08-27 23:34:20,886 - AutomationProject -WARN - Test case Passed 
+
+2022-08-27 23:36:15,318 - AutomationProject -INFO - Url is opened
+2022-08-27 23:36:20,364 - AutomationProject -INFO - Shop button is clicked
+2022-08-27 23:36:24,821 - AutomationProject -INFO - Left edge of price slider moved
+2022-08-27 23:36:25,274 - AutomationProject -INFO - Right edge of price slider moved
+2022-08-27 23:36:28,005 - AutomationProject -INFO - Filter button is clicked
+2022-08-27 23:36:32,078 - AutomationProject -INFO - Test case Passed 
+
+2022-08-27 23:36:32,124 - AutomationProject -INFO - Test case Passed 
+
+2022-08-27 23:36:32,167 - AutomationProject -INFO - Test case Passed 
+
+2022-08-27 23:36:32,223 - AutomationProject -INFO - Test case Passed 
+
+2022-08-27 23:38:28,445 - AutomationProject -INFO - Url is opened
+2022-08-27 23:38:31,741 - AutomationProject -INFO - Shop button is clicked
+2022-08-27 23:38:36,207 - AutomationProject -INFO - Left edge of price slider moved
+2022-08-27 23:38:36,618 - AutomationProject -INFO - Right edge of price slider moved
+2022-08-27 23:38:38,597 - AutomationProject -INFO - Filter button is clicked
+2022-08-27 23:38:42,673 - AutomationProject -INFO - Test case Passed 
+
+2022-08-27 23:38:42,720 - AutomationProject -INFO - Test case Passed 
+
+2022-08-27 23:38:42,761 - AutomationProject -INFO - Test case Passed 
+
+2022-08-27 23:38:42,817 - AutomationProject -INFO - Test case Passed 
+
+2022-08-27 23:42:11,520 - AutomationProject -INFO - Url is opened
+2022-08-27 23:42:43,622 - AutomationProject -INFO - Shop button is clicked
+2022-08-27 23:42:48,081 - AutomationProject -INFO - Left edge of price slider moved
+2022-08-27 23:42:48,530 - AutomationProject -INFO - Right edge of price slider moved
+2022-08-27 23:42:50,755 - AutomationProject -INFO - Filter button is clicked
+2022-08-27 23:42:54,852 - AutomationProject -WARN - Test case Failed 
+

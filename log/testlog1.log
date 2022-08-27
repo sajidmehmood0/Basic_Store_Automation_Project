@@ -379,3 +379,57 @@
 2022-08-27 13:00:32,632 [main] INFO AutomationProject - Left edge of price slider moved
 2022-08-27 13:00:33,055 [main] INFO AutomationProject - Right edge of price slider moved
 2022-08-27 13:00:34,959 [main] INFO AutomationProject - Filter button is clicked
+2022-08-27 13:16:10,371 [main] INFO AutomationProject - Url is opened
+2022-08-27 13:16:20,760 [main] INFO AutomationProject - Shop button is clicked
+2022-08-27 13:16:25,186 [main] INFO AutomationProject - Left edge of price slider moved
+2022-08-27 13:16:25,611 [main] INFO AutomationProject - Right edge of price slider moved
+2022-08-27 13:16:27,794 [main] INFO AutomationProject - Filter button is clicked
+2022-08-27 13:16:36,932 [main] INFO AutomationProject - Test case Passed 
+
+2022-08-27 13:19:01,810 [main] INFO AutomationProject - Url is opened
+2022-08-27 13:19:06,616 [main] INFO AutomationProject - Shop button is clicked
+2022-08-27 13:19:11,070 [main] INFO AutomationProject - Left edge of price slider moved
+2022-08-27 13:19:11,509 [main] INFO AutomationProject - Right edge of price slider moved
+2022-08-27 13:19:13,425 [main] INFO AutomationProject - Filter button is clicked
+2022-08-27 13:19:22,715 [main] INFO AutomationProject - Test case Passed 
+
+2022-08-27 23:34:05,062 [main] INFO AutomationProject - Url is opened
+2022-08-27 23:34:08,796 [main] INFO AutomationProject - Shop button is clicked
+2022-08-27 23:34:13,543 [main] INFO AutomationProject - Left edge of price slider moved
+2022-08-27 23:34:14,208 [main] INFO AutomationProject - Right edge of price slider moved
+2022-08-27 23:34:16,810 [main] INFO AutomationProject - Filter button is clicked
+2022-08-27 23:34:20,886 [main] WARN AutomationProject - Test case Passed 
+
+2022-08-27 23:36:15,318 [main] INFO AutomationProject - Url is opened
+2022-08-27 23:36:20,364 [main] INFO AutomationProject - Shop button is clicked
+2022-08-27 23:36:24,821 [main] INFO AutomationProject - Left edge of price slider moved
+2022-08-27 23:36:25,274 [main] INFO AutomationProject - Right edge of price slider moved
+2022-08-27 23:36:28,005 [main] INFO AutomationProject - Filter button is clicked
+2022-08-27 23:36:32,078 [main] INFO AutomationProject - Test case Passed 
+
+2022-08-27 23:36:32,124 [main] INFO AutomationProject - Test case Passed 
+
+2022-08-27 23:36:32,167 [main] INFO AutomationProject - Test case Passed 
+
+2022-08-27 23:36:32,223 [main] INFO AutomationProject - Test case Passed 
+
+2022-08-27 23:38:28,445 [main] INFO AutomationProject - Url is opened
+2022-08-27 23:38:31,741 [main] INFO AutomationProject - Shop button is clicked
+2022-08-27 23:38:36,207 [main] INFO AutomationProject - Left edge of price slider moved
+2022-08-27 23:38:36,618 [main] INFO AutomationProject - Right edge of price slider moved
+2022-08-27 23:38:38,597 [main] INFO AutomationProject - Filter button is clicked
+2022-08-27 23:38:42,673 [main] INFO AutomationProject - Test case Passed 
+
+2022-08-27 23:38:42,720 [main] INFO AutomationProject - Test case Passed 
+
+2022-08-27 23:38:42,761 [main] INFO AutomationProject - Test case Passed 
+
+2022-08-27 23:38:42,817 [main] INFO AutomationProject - Test case Passed 
+
+2022-08-27 23:42:11,520 [main] INFO AutomationProject - Url is opened
+2022-08-27 23:42:43,622 [main] INFO AutomationProject - Shop button is clicked
+2022-08-27 23:42:48,081 [main] INFO AutomationProject - Left edge of price slider moved
+2022-08-27 23:42:48,530 [main] INFO AutomationProject - Right edge of price slider moved
+2022-08-27 23:42:50,755 [main] INFO AutomationProject - Filter button is clicked
+2022-08-27 23:42:54,852 [main] WARN AutomationProject - Test case Failed 
+

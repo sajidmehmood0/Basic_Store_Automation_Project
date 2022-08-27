@@ -3,6 +3,7 @@ package com.automationproject.testCases;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -15,8 +16,7 @@ public class Tc_FilterByPrice_14 extends baseClass {
 	{
 		Actions action = new Actions(driver);
 		shopPage sPage = new shopPage(driver);
-		boolean checkTest = true;
-		String price;
+		String value;
 		
 		logger.info("Url is opened");
 		
@@ -24,6 +24,7 @@ public class Tc_FilterByPrice_14 extends baseClass {
 		logger.info("Shop button is clicked");
 		
 		Thread.sleep(4000);
+		
 		
 		action.dragAndDropBy(sPage.sliderLeft(), 20,0).perform();
 		logger.info("Left edge of price slider moved");
@@ -36,42 +37,51 @@ public class Tc_FilterByPrice_14 extends baseClass {
 		sPage.clickFilter();
 		logger.info("Filter button is clicked");
 		
-		Thread.sleep(9000);
-		
+		Thread.sleep(4000);
+	
 		int books = driver.findElements(By.xpath("//*[@id=\"content\"]/ul/li")).size();
-		System.out.println(books);
 		
 		for(int i=1;i<=books;i++)
 		{
-		
-				price =driver.findElement(By.xpath("//*[@id=\\\"content\\\"]/ul/li[\"+i+\"]/a[1]/span/span")).getText();
-				if(price.isEmpty())
-				{
-					
-				}
-				System.out.println(price);
-		
+			if(isElementPresent(By.xpath("//*[@id=\"content\"]/ul/li["+i+"]/a[1]/span/span")))
+			{
+				value = driver.findElement(By.xpath("//*[@id=\"content\"]/ul/li["+i+"]/a[1]/span/span")).getText();
+			}
+			else
+			{
+				value = driver.findElement(By.xpath("//*[@id=\"content\"]/ul/li["+i+"]/a[1]/span[2]/ins/span")).getText();
+			}
+			StringBuilder sb = new StringBuilder(value);
+			float testValue = Float.parseFloat(sb.deleteCharAt(0).toString());
 			
-//			if(price< 185 || price>448)
-//			{
-//				checkTest = false;	
-//				break;
-//			}
+			if(testValue<185 || testValue>448)
+			{
+				logger.warn("Test case Failed \n");
+				Assert.assertTrue(false);
+				captureScreen(driver,"filterByPrice");
+				
+			}
+			else
+			{
+				Assert.assertTrue(true);
+			}
+			
 		}
-		if(checkTest)
-		{
-			logger.info("Test case Passed \n");
-			Assert.assertTrue(true);
-		}
-		else
-		{
-			captureScreen(driver, "filterByPrice");
-			logger.warn("Test case Failed \n");
-			Assert.assertTrue(false);
-		}
-		
-		
-		
+		logger.info("Test case Passed \n");
 	}
+	
+	public boolean isElementPresent(By by)
+	{
+		try
+		{
+			driver.findElement(by);
+			return true;
+		}
+		catch(org.openqa.selenium.NoSuchElementException e)
+		{
+			return false;
+		}
+	}
+	
 
 }
