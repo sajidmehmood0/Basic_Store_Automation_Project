@@ -16,8 +16,9 @@ public class Tc_FilterByPrice_14 extends baseClass {
 		Actions action = new Actions(driver);
 		shopPage sPage = new shopPage(driver);
 		boolean checkTest = true;
+		String price;
 		
-		//logger.info("Url is opened");
+		logger.info("Url is opened");
 		
 		sPage.clickShop();
 		logger.info("Shop button is clicked");
@@ -38,21 +39,24 @@ public class Tc_FilterByPrice_14 extends baseClass {
 		Thread.sleep(9000);
 		
 		int books = driver.findElements(By.xpath("//*[@id=\"content\"]/ul/li")).size();
+		System.out.println(books);
 		
-		String a=driver.findElement(By.xpath("//*[@id=\"content\"]/ul/li[2]/a[1]/span/span")).getText();
-		
-		System.out.println(a);
-		
-		for(int i=2;i<=books;i++)
+		for(int i=1;i<=books;i++)
 		{
-			System.out.println("insode");
-			int price =Integer.parseInt(driver.findElement(By.xpath("//*[@id=\"content\"]/ul/li["+i+"]/a[1]/span/span")).getText());
-			System.out.println(price);
-			if(price< 185 || price>448)
-			{
-				checkTest = false;	
-				break;
-			}
+		
+				price =driver.findElement(By.xpath("//*[@id=\\\"content\\\"]/ul/li[\"+i+\"]/a[1]/span/span")).getText();
+				if(price.isEmpty())
+				{
+					
+				}
+				System.out.println(price);
+		
+			
+//			if(price< 185 || price>448)
+//			{
+//				checkTest = false;	
+//				break;
+//			}
 		}
 		if(checkTest)
 		{

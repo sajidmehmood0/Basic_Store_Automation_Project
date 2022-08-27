@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-27T00:27:31 PKT" name="AutomationProject" finished-at="2022-08-27T00:28:14 PKT" duration-ms="42939">
+  <suite started-at="2022-08-27T12:59:56 PKT" name="AutomationProject" finished-at="2022-08-27T13:00:44 PKT" duration-ms="47815">
     <groups>
     </groups>
-    <test started-at="2022-08-27T00:27:31 PKT" name="Shop" finished-at="2022-08-27T00:28:14 PKT" duration-ms="42939">
+    <test started-at="2022-08-27T12:59:56 PKT" name="Shop" finished-at="2022-08-27T13:00:44 PKT" duration-ms="47815">
       <class name="com.automationproject.testCases.Tc_FilterByPrice_14">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automationproject.testCases.Tc_FilterByPrice_14@4b0d79fc]" started-at="2022-08-27T00:27:32 PKT" name="setup" finished-at="2022-08-27T00:27:53 PKT" duration-ms="21136" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automationproject.testCases.Tc_FilterByPrice_14@4b0d79fc]" started-at="2022-08-27T12:59:57 PKT" name="setup" finished-at="2022-08-27T13:00:19 PKT" duration-ms="22310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,47 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="filterByPrice()[pri:0, instance:com.automationproject.testCases.Tc_FilterByPrice_14@4b0d79fc]" started-at="2022-08-27T00:27:53 PKT" name="filterByPrice" finished-at="2022-08-27T00:28:13 PKT" duration-ms="20580" status="FAIL">
-          <exception class="java.lang.NumberFormatException">
+        <test-method signature="filterByPrice()[pri:0, instance:com.automationproject.testCases.Tc_FilterByPrice_14@4b0d79fc]" started-at="2022-08-27T13:00:19 PKT" name="filterByPrice" finished-at="2022-08-27T13:00:44 PKT" duration-ms="24307" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
-              <![CDATA[For input string: "₹280.00"]]>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //*[@id=\"content\"]/ul/li["+i+"]/a[1]/span/span because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\"content\"]/ul/li["+i+"]/a[1]/span/span' is not a valid XPath expression.
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-DK52L2S', ip: '10.211.0.14', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af7a49104c00b96fdfba513c43ebc4f5, findElement {using=xpath, value=//*[@id=\"content\"]/ul/li["+i+"]/a[1]/span/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50938}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50938/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: af7a49104c00b96fdfba513c43ebc4f5]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NumberFormatException: For input string: "₹280.00"
-at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-at java.base/java.lang.Integer.parseInt(Integer.java:652)
-at java.base/java.lang.Integer.parseInt(Integer.java:770)
-at com.automationproject.testCases.Tc_FilterByPrice_14.filterByPrice(Tc_FilterByPrice_14.java:49)
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\"content\"]/ul/li["+i+"]/a[1]/span/span because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\"content\"]/ul/li["+i+"]/a[1]/span/span' is not a valid XPath expression.
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-DK52L2S', ip: '10.211.0.14', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af7a49104c00b96fdfba513c43ebc4f5, findElement {using=xpath, value=//*[@id=\"content\"]/ul/li["+i+"]/a[1]/span/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50938}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50938/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: af7a49104c00b96fdfba513c43ebc4f5
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at com.automationproject.testCases.Tc_FilterByPrice_14.filterByPrice(Tc_FilterByPrice_14.java:57)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -59,11 +89,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NumberFormatException -->
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByPrice -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationproject.testCases.Tc_FilterByPrice_14@4b0d79fc]" started-at="2022-08-27T00:28:13 PKT" name="tearDown" finished-at="2022-08-27T00:28:14 PKT" duration-ms="669" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationproject.testCases.Tc_FilterByPrice_14@4b0d79fc]" started-at="2022-08-27T13:00:44 PKT" name="tearDown" finished-at="2022-08-27T13:00:44 PKT" duration-ms="632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
