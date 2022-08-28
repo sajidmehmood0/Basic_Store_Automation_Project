@@ -36,7 +36,7 @@
 	<test name = "Shop">
 		<parameter name = "browser" value = "chrome"/>
 		<classes>
-			<class name = "com.automationproject.testCases.Tc_FilterByPrice_14"/>
+			<class name = "com.automationproject.testCases.Tc_FilterByCategory_15"/>
 		</classes>
 	</test>
 
