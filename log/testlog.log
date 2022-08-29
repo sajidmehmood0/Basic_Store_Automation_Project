@@ -1,30 +1,91 @@
-2022-08-28 06:02:52,956 - AutomationProject -INFO - Url is opened
-2022-08-28 06:02:56,736 - AutomationProject -INFO - Shop button is clicked
-2022-08-28 06:04:00,713 - AutomationProject -INFO - Url is opened
-2022-08-28 06:04:04,922 - AutomationProject -INFO - Shop button is clicked
-2022-08-28 06:04:12,050 - AutomationProject -INFO - Category button is clicked
-2022-08-28 06:04:16,183 - AutomationProject -INFO - Test case Passed 
+2022-08-29 06:51:26,871 - AutomationProject -INFO - URL is opened
+2022-08-29 06:51:28,455 - AutomationProject -INFO - My Account button is clicked
+2022-08-29 06:51:30,611 - AutomationProject -INFO - Username entered
+2022-08-29 06:51:30,781 - AutomationProject -INFO - Passwrod entered
+2022-08-29 06:51:38,179 - AutomationProject -INFO - Test case Passed 
 
-2022-08-28 06:05:19,592 - AutomationProject -INFO - Url is opened
-2022-08-28 06:05:23,605 - AutomationProject -INFO - Shop button is clicked
-2022-08-28 06:05:29,950 - AutomationProject -INFO - Category button is clicked
-2022-08-28 06:05:34,119 - AutomationProject -INFO - Test case Passed 
+2022-08-29 06:51:47,382 - AutomationProject -INFO - URL is opened
+2022-08-29 06:51:48,767 - AutomationProject -INFO - My Account button is clicked
+2022-08-29 06:51:50,905 - AutomationProject -INFO - Username entered
+2022-08-29 06:51:51,012 - AutomationProject -INFO - Passwrod entered
+2022-08-29 06:51:57,906 - AutomationProject -INFO - Test case Passed 
 
-2022-08-29 06:28:17,635 - AutomationProject -INFO - Url is opened
-2022-08-29 06:28:19,988 - AutomationProject -INFO - Shop button is clicked
-2022-08-29 06:29:49,842 - AutomationProject -INFO - Url is opened
-2022-08-29 06:29:52,629 - AutomationProject -INFO - Shop button is clicked
-2022-08-29 06:29:58,493 - AutomationProject -INFO - Dropdown value get selected
-2022-08-29 06:31:32,465 - AutomationProject -INFO - Url is opened
-2022-08-29 06:31:35,076 - AutomationProject -INFO - Shop button is clicked
-2022-08-29 06:31:41,226 - AutomationProject -INFO - Dropdown value get selected
-2022-08-29 06:33:24,443 - AutomationProject -INFO - Url is opened
-2022-08-29 06:33:27,209 - AutomationProject -INFO - Shop button is clicked
-2022-08-29 06:33:32,887 - AutomationProject -INFO - Dropdown value get selected
-2022-08-29 06:33:37,275 - AutomationProject -INFO - Test case Passed 
+2022-08-29 06:52:09,144 - AutomationProject -INFO - URL is opened
+2022-08-29 06:52:11,061 - AutomationProject -INFO - My Account button is clicked
+2022-08-29 06:52:13,208 - AutomationProject -INFO - Username entered
+2022-08-29 06:52:13,364 - AutomationProject -INFO - Empty passwrod entered
+2022-08-29 06:52:20,299 - AutomationProject -INFO - Test case Passed 
 
-2022-08-29 06:35:48,545 - AutomationProject -INFO - Url is opened
-2022-08-29 06:35:50,683 - AutomationProject -INFO - Shop button is clicked
-2022-08-29 06:35:56,999 - AutomationProject -INFO - Dropdown value get selected
-2022-08-29 06:36:01,376 - AutomationProject -INFO - Test case Passed 
+2022-08-29 06:52:29,441 - AutomationProject -INFO - URL is opened
+2022-08-29 06:52:30,987 - AutomationProject -INFO - My Account button is clicked
+2022-08-29 06:52:33,085 - AutomationProject -INFO - Empty username entered
+2022-08-29 06:52:33,233 - AutomationProject -INFO - Passwrod entered
+2022-08-29 06:52:40,778 - AutomationProject -INFO - Test case Passed 
+
+2022-08-29 06:52:51,739 - AutomationProject -INFO - URL is opened
+2022-08-29 06:53:00,992 - AutomationProject -INFO - My Account button is clicked
+2022-08-29 06:53:03,077 - AutomationProject -INFO - Empty username entered
+2022-08-29 06:53:03,181 - AutomationProject -INFO - Empty passwrod entered
+2022-08-29 06:53:09,972 - AutomationProject -INFO - Test case Passed 
+
+2022-08-29 06:53:19,555 - AutomationProject -INFO - URL is opened
+2022-08-29 06:53:21,201 - AutomationProject -INFO - My Account button is clicked
+2022-08-29 06:53:23,395 - AutomationProject -INFO - Username entered
+2022-08-29 06:53:23,545 - AutomationProject -INFO - Passwrod entered
+2022-08-29 06:53:30,787 - AutomationProject -INFO - Test case Passed 
+
+2022-08-29 06:53:42,529 - AutomationProject -INFO - URL is opened
+2022-08-29 06:53:44,251 - AutomationProject -INFO - My Account button is clicked
+2022-08-29 06:53:46,398 - AutomationProject -INFO - Username entered
+2022-08-29 06:53:46,542 - AutomationProject -INFO - Passwrod entered
+2022-08-29 06:53:57,970 - AutomationProject -INFO - Test case Passed 
+
+2022-08-29 06:54:08,372 - AutomationProject -INFO - URL is opened
+2022-08-29 06:54:10,535 - AutomationProject -INFO - My Account button is clicked
+2022-08-29 06:54:12,649 - AutomationProject -INFO - Email is entered
+2022-08-29 06:54:12,836 - AutomationProject -INFO - Password is entered
+2022-08-29 06:54:13,003 - AutomationProject -INFO - Registration button is clicked
+2022-08-29 06:54:29,686 - AutomationProject -INFO - URL is opened
+2022-08-29 06:54:31,097 - AutomationProject -INFO - My Account button is clicked
+2022-08-29 06:54:33,278 - AutomationProject -INFO - Email is entered
+2022-08-29 06:54:33,447 - AutomationProject -INFO - Password is entered
+2022-08-29 06:54:35,432 - AutomationProject -INFO - Registration button is clicked
+2022-08-29 06:54:40,469 - AutomationProject -INFO - Test case Passed 
+
+2022-08-29 06:54:50,995 - AutomationProject -INFO - URL is opened
+2022-08-29 06:54:52,451 - AutomationProject -INFO - My Account button is clicked
+2022-08-29 06:54:54,672 - AutomationProject -INFO - Password is entered
+2022-08-29 06:54:56,177 - AutomationProject -INFO - Registration button is clicked
+2022-08-29 06:55:01,205 - AutomationProject -INFO - Test case Passed 
+
+2022-08-29 06:55:11,990 - AutomationProject -INFO - URL is opened
+2022-08-29 06:55:13,709 - AutomationProject -INFO - My Account button is clicked
+2022-08-29 06:55:15,840 - AutomationProject -INFO - Email is entered
+2022-08-29 06:55:16,007 - AutomationProject -INFO - Registration button is clicked
+2022-08-29 06:55:32,157 - AutomationProject -INFO - URL is opened
+2022-08-29 06:55:33,853 - AutomationProject -INFO - My Account button is clicked
+2022-08-29 06:55:37,489 - AutomationProject -INFO - Registration button is clicked
+2022-08-29 06:55:42,511 - AutomationProject -INFO - Test case Passed 
+
+2022-08-29 06:55:53,832 - AutomationProject -INFO - Url is opened
+2022-08-29 06:55:57,031 - AutomationProject -INFO - Shop button is clicked
+2022-08-29 06:56:01,498 - AutomationProject -INFO - Left edge of price slider moved
+2022-08-29 06:56:01,958 - AutomationProject -INFO - Right edge of price slider moved
+2022-08-29 06:56:03,784 - AutomationProject -INFO - Filter button is clicked
+2022-08-29 06:56:07,985 - AutomationProject -INFO - Test case Passed 
+
+2022-08-29 06:56:18,826 - AutomationProject -INFO - Url is opened
+2022-08-29 06:56:21,676 - AutomationProject -INFO - Shop button is clicked
+2022-08-29 06:56:28,323 - AutomationProject -INFO - Category button is clicked
+2022-08-29 06:56:32,422 - AutomationProject -INFO - Test case Passed 
+
+2022-08-29 06:56:46,032 - AutomationProject -INFO - Url is opened
+2022-08-29 06:56:47,937 - AutomationProject -INFO - Shop button is clicked
+2022-08-29 06:56:53,725 - AutomationProject -INFO - Dropdown value get selected
+2022-08-29 06:56:58,059 - AutomationProject -INFO - Test case Passed 
+
+2022-08-29 06:57:08,245 - AutomationProject -INFO - Url is opened
+2022-08-29 06:57:10,707 - AutomationProject -INFO - Shop button is clicked
+2022-08-29 06:57:16,568 - AutomationProject -INFO - Dropdown value get selected
+2022-08-29 06:57:20,901 - AutomationProject -INFO - Test case Passed 
 
