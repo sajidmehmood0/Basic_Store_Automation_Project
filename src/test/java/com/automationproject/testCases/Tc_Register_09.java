@@ -17,7 +17,7 @@ public class Tc_Register_09 extends baseClass {
 		logger.info("My Account button is clicked");
 		Thread.sleep(2000);
 		
-		rPage.setEmail(randomestring());
+		rPage.setEmail(randomestring()+"@gmail.com");
 		logger.info("Email is entered");
 		
 		rPage.setPassword("assdsdsdY6H");
