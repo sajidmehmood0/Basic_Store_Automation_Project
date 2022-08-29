@@ -37,6 +37,10 @@ public class shopPage
 	@CacheLookup
 	WebElement btnCategory;
 	
+	@FindBy(how =How.XPATH,using = "/html/body/div[1]/div[2]/div/div/form/select")
+	@CacheLookup
+	WebElement btnOptions;
+	
 	public void clickShop()
 	{
 		btnShop.click();
@@ -57,8 +61,10 @@ public class shopPage
 	{
 		btnCategory.click();
 	}
-	
-	
+	public WebElement getOptions()
+	{
+		return btnOptions;
+	}
 	
 	
 }

@@ -3,7 +3,6 @@ package com.automationproject.testCases;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

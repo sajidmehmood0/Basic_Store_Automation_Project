@@ -10,3 +10,21 @@
 2022-08-28 06:05:29,950 [main] INFO AutomationProject - Category button is clicked
 2022-08-28 06:05:34,119 [main] INFO AutomationProject - Test case Passed 
 
+2022-08-29 06:28:17,635 [main] INFO AutomationProject - Url is opened
+2022-08-29 06:28:19,988 [main] INFO AutomationProject - Shop button is clicked
+2022-08-29 06:29:49,842 [main] INFO AutomationProject - Url is opened
+2022-08-29 06:29:52,629 [main] INFO AutomationProject - Shop button is clicked
+2022-08-29 06:29:58,493 [main] INFO AutomationProject - Dropdown value get selected
+2022-08-29 06:31:32,465 [main] INFO AutomationProject - Url is opened
+2022-08-29 06:31:35,076 [main] INFO AutomationProject - Shop button is clicked
+2022-08-29 06:31:41,226 [main] INFO AutomationProject - Dropdown value get selected
+2022-08-29 06:33:24,443 [main] INFO AutomationProject - Url is opened
+2022-08-29 06:33:27,209 [main] INFO AutomationProject - Shop button is clicked
+2022-08-29 06:33:32,887 [main] INFO AutomationProject - Dropdown value get selected
+2022-08-29 06:33:37,275 [main] INFO AutomationProject - Test case Passed 
+
+2022-08-29 06:35:48,545 [main] INFO AutomationProject - Url is opened
+2022-08-29 06:35:50,683 [main] INFO AutomationProject - Shop button is clicked
+2022-08-29 06:35:56,999 [main] INFO AutomationProject - Dropdown value get selected
+2022-08-29 06:36:01,376 [main] INFO AutomationProject - Test case Passed 
+

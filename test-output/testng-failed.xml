@@ -7,13 +7,13 @@
   <test thread-count="5" name="Shop(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.automationproject.testCases.Tc_FilterByCategory_15">
+      <class name="com.automationproject.testCases.Tc_SortByLowToHigh_16">
         <methods>
-          <include name="filterByCategory"/>
+          <include name="filterByLowToHigh"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.automationproject.testCases.Tc_FilterByCategory_15 -->
+      </class> <!-- com.automationproject.testCases.Tc_SortByLowToHigh_16 -->
     </classes>
   </test> <!-- Shop(failed) -->
 </suite> <!-- Failed suite [AutomationProject] -->
