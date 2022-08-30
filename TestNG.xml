@@ -7,7 +7,7 @@
 		<listener class-name="com.automationproject.utilities.Reporting"/>
 	</listeners>
 	
-	<test name = "LoginTests">
+	<!--<test name = "LoginTests">
 		<parameter name = "browser" value = "chrome"/>
 		<classes>
 			<class name = "com.automationproject.testCases.Tc_LoginTest_01"/>
@@ -31,15 +31,16 @@
 			<class name = "com.automationproject.testCases.Tc_RegisterWithEmptyData_13"/>
 			
 		</classes>
-	</test>
+	</test>-->
 	
 	<test name = "Shop">
 		<parameter name = "browser" value = "chrome"/>
 		<classes>
-			<class name = "com.automationproject.testCases.Tc_FilterByPrice_14"/>
+			<!--<class name = "com.automationproject.testCases.Tc_FilterByPrice_14"/>
 			<class name = "com.automationproject.testCases.Tc_FilterByCategory_15"/>
 			<class name = "com.automationproject.testCases.Tc_SortByLowToHigh_16"/>
-			<class name = "com.automationproject.testCases.Tc_SortByHighToLow_17"/>
+			<class name = "com.automationproject.testCases.Tc_SortByHighToLow_17"/>-->
+			<class name = "com.automationproject.testCases.Tc_ReadButton_18"/>
 		</classes>
 	</test>
 

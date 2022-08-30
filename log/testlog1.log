@@ -89,3 +89,38 @@
 2022-08-29 06:57:16,568 [main] INFO AutomationProject - Dropdown value get selected
 2022-08-29 06:57:20,901 [main] INFO AutomationProject - Test case Passed 
 
+2022-08-30 06:10:08,886 [main] INFO AutomationProject - Url is opened
+2022-08-30 06:10:11,502 [main] INFO AutomationProject - Shop button is clicked
+2022-08-30 06:12:02,846 [main] INFO AutomationProject - Url is opened
+2022-08-30 06:12:04,661 [main] INFO AutomationProject - Shop button is clicked
+2022-08-30 06:12:10,572 [main] INFO AutomationProject - read button is clicked
+2022-08-30 06:12:17,903 [main] INFO AutomationProject - read button is clicked
+2022-08-30 06:12:25,960 [main] INFO AutomationProject - read button is clicked
+2022-08-30 06:16:27,629 [main] INFO AutomationProject - Url is opened
+2022-08-30 06:16:29,647 [main] INFO AutomationProject - Shop button is clicked
+2022-08-30 06:21:05,273 [main] INFO AutomationProject - Url is opened
+2022-08-30 06:21:07,245 [main] INFO AutomationProject - Shop button is clicked
+2022-08-30 06:21:13,254 [main] INFO AutomationProject - read button is clicked
+2022-08-30 06:21:16,310 [main] INFO AutomationProject - Out of stock is found
+2022-08-30 06:21:16,310 [main] INFO AutomationProject - Navigating to previous page
+2022-08-30 06:21:28,158 [main] INFO AutomationProject - read button is clicked
+2022-08-30 06:21:31,184 [main] INFO AutomationProject - Out of stock is found
+2022-08-30 06:21:31,184 [main] INFO AutomationProject - Navigating to previous page
+2022-08-30 06:21:34,455 [main] INFO AutomationProject - Test case Passed 
+
+2022-08-30 06:22:42,512 [main] INFO AutomationProject - Url is opened
+2022-08-30 06:22:44,600 [main] INFO AutomationProject - Shop button is clicked
+2022-08-30 06:22:50,731 [main] INFO AutomationProject - read button is clicked
+2022-08-30 06:22:53,783 [main] INFO AutomationProject - Out of stock is found
+2022-08-30 06:22:53,784 [main] INFO AutomationProject - Navigating to previous page
+2022-08-30 06:22:58,210 [main] INFO AutomationProject - read button is clicked
+2022-08-30 06:23:01,247 [main] INFO AutomationProject - Out of stock is found
+2022-08-30 06:23:01,247 [main] INFO AutomationProject - Navigating to previous page
+2022-08-30 06:23:06,051 [main] INFO AutomationProject - read button is clicked
+2022-08-30 06:23:09,083 [main] INFO AutomationProject - Out of stock is found
+2022-08-30 06:23:09,084 [main] INFO AutomationProject - Navigating to previous page
+2022-08-30 06:23:15,284 [main] INFO AutomationProject - read button is clicked
+2022-08-30 06:23:18,315 [main] INFO AutomationProject - Out of stock is found
+2022-08-30 06:23:18,316 [main] INFO AutomationProject - Navigating to previous page
+2022-08-30 06:23:21,550 [main] INFO AutomationProject - Test case Passed 
+

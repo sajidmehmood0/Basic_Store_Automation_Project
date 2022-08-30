@@ -89,3 +89,38 @@
 2022-08-29 06:57:16,568 - AutomationProject -INFO - Dropdown value get selected
 2022-08-29 06:57:20,901 - AutomationProject -INFO - Test case Passed 
 
+2022-08-30 06:10:08,886 - AutomationProject -INFO - Url is opened
+2022-08-30 06:10:11,502 - AutomationProject -INFO - Shop button is clicked
+2022-08-30 06:12:02,846 - AutomationProject -INFO - Url is opened
+2022-08-30 06:12:04,661 - AutomationProject -INFO - Shop button is clicked
+2022-08-30 06:12:10,572 - AutomationProject -INFO - read button is clicked
+2022-08-30 06:12:17,903 - AutomationProject -INFO - read button is clicked
+2022-08-30 06:12:25,960 - AutomationProject -INFO - read button is clicked
+2022-08-30 06:16:27,629 - AutomationProject -INFO - Url is opened
+2022-08-30 06:16:29,647 - AutomationProject -INFO - Shop button is clicked
+2022-08-30 06:21:05,273 - AutomationProject -INFO - Url is opened
+2022-08-30 06:21:07,245 - AutomationProject -INFO - Shop button is clicked
+2022-08-30 06:21:13,254 - AutomationProject -INFO - read button is clicked
+2022-08-30 06:21:16,310 - AutomationProject -INFO - Out of stock is found
+2022-08-30 06:21:16,310 - AutomationProject -INFO - Navigating to previous page
+2022-08-30 06:21:28,158 - AutomationProject -INFO - read button is clicked
+2022-08-30 06:21:31,184 - AutomationProject -INFO - Out of stock is found
+2022-08-30 06:21:31,184 - AutomationProject -INFO - Navigating to previous page
+2022-08-30 06:21:34,455 - AutomationProject -INFO - Test case Passed 
+
+2022-08-30 06:22:42,512 - AutomationProject -INFO - Url is opened
+2022-08-30 06:22:44,600 - AutomationProject -INFO - Shop button is clicked
+2022-08-30 06:22:50,731 - AutomationProject -INFO - read button is clicked
+2022-08-30 06:22:53,783 - AutomationProject -INFO - Out of stock is found
+2022-08-30 06:22:53,784 - AutomationProject -INFO - Navigating to previous page
+2022-08-30 06:22:58,210 - AutomationProject -INFO - read button is clicked
+2022-08-30 06:23:01,247 - AutomationProject -INFO - Out of stock is found
+2022-08-30 06:23:01,247 - AutomationProject -INFO - Navigating to previous page
+2022-08-30 06:23:06,051 - AutomationProject -INFO - read button is clicked
+2022-08-30 06:23:09,083 - AutomationProject -INFO - Out of stock is found
+2022-08-30 06:23:09,084 - AutomationProject -INFO - Navigating to previous page
+2022-08-30 06:23:15,284 - AutomationProject -INFO - read button is clicked
+2022-08-30 06:23:18,315 - AutomationProject -INFO - Out of stock is found
+2022-08-30 06:23:18,316 - AutomationProject -INFO - Navigating to previous page
+2022-08-30 06:23:21,550 - AutomationProject -INFO - Test case Passed 
+
