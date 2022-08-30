@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-30T06:22:28 PKT" name="AutomationProject" finished-at="2022-08-30T06:23:21 PKT" duration-ms="53282">
+  <suite started-at="2022-08-30T06:38:38 PKT" name="AutomationProject" finished-at="2022-08-30T06:39:31 PKT" duration-ms="52780">
     <groups>
     </groups>
-    <test started-at="2022-08-30T06:22:28 PKT" name="Shop" finished-at="2022-08-30T06:23:21 PKT" duration-ms="53282">
+    <test started-at="2022-08-30T06:38:38 PKT" name="Shop" finished-at="2022-08-30T06:39:31 PKT" duration-ms="52780">
       <class name="com.automationproject.testCases.Tc_ReadButton_18">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automationproject.testCases.Tc_ReadButton_18@4b0d79fc]" started-at="2022-08-30T06:22:29 PKT" name="setup" finished-at="2022-08-30T06:22:42 PKT" duration-ms="13371" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automationproject.testCases.Tc_ReadButton_18@4b0d79fc]" started-at="2022-08-30T06:38:39 PKT" name="setup" finished-at="2022-08-30T06:38:52 PKT" duration-ms="13177" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="readButton()[pri:0, instance:com.automationproject.testCases.Tc_ReadButton_18@4b0d79fc]" started-at="2022-08-30T06:22:42 PKT" name="readButton" finished-at="2022-08-30T06:23:21 PKT" duration-ms="39085" status="PASS">
+        <test-method signature="readButton()[pri:0, instance:com.automationproject.testCases.Tc_ReadButton_18@4b0d79fc]" started-at="2022-08-30T06:38:52 PKT" name="readButton" finished-at="2022-08-30T06:39:31 PKT" duration-ms="38650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readButton -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationproject.testCases.Tc_ReadButton_18@4b0d79fc]" started-at="2022-08-30T06:23:21 PKT" name="tearDown" finished-at="2022-08-30T06:23:21 PKT" duration-ms="393" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationproject.testCases.Tc_ReadButton_18@4b0d79fc]" started-at="2022-08-30T06:39:31 PKT" name="tearDown" finished-at="2022-08-30T06:39:31 PKT" duration-ms="483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

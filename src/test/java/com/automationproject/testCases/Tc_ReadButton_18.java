@@ -33,8 +33,10 @@ public class Tc_ReadButton_18 extends baseClass {
 				{
 					driver.findElement(By.xpath("//*[@id=\"content\"]/ul/li["+i+"]/a[2]")).click();
 					logger.info("read button is clicked");
+					String items = driver.findElement(By.xpath("//*[@id=\"wpmenucartli\"]/a/span[1]")).getText();
+					int count = Integer.parseInt(items.substring(0, 1));
 					Thread.sleep(3000);
-					if(!(driver.getPageSource().contains("Out of stock")))
+					if(!(driver.getPageSource().contains("Out of stock")) && count!=0)
 					{
 						logger.warn("Test case Failed \n");
 						Assert.assertTrue(false);
